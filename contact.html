@@ -1,0 +1,185 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background :url(Image/6412173.jpg);
+            justify-content: center;
+            align-items: center;
+        }
+        html,body
+          {   height: 100%;
+              margin: 0;
+              padding: 0;
+          }
+          .tete
+          {
+              
+              height: 100px;
+              margin: 10px;
+               
+              font-family: Arial, sans-serif;
+              font-size: 14;
+          }
+          nav ul li
+          {
+              list-style-type: none;
+              display: inline-block;
+              padding: 15px;
+          }
+          ul li a
+          {
+              color: white;
+              letter-spacing: 0.1rem;
+          }
+          ul li a:hover{
+              color : #ffd358;
+              text decoration : underline;
+          }
+          .menu{
+              list-style-type: none;
+              padding: 0;
+              margin: 0;
+              display: flex;
+          }
+          .navbar{
+              background-color: #2e7228;
+              position: fixed;
+              top: 0;
+              width: 100%;
+              height:150;
+              z-index: 100;
+              
+             
+          }
+        
+          .menu li
+          {
+              float: left;
+              padding: 35px;
+          }
+          menu li a
+          {
+              text-decoration: none;
+          }
+          form
+          {
+              padding: 35px;
+              text-align: right;
+              border-radius: 40px;
+          }
+          input[type="search"]{
+              font-size: 17px;
+          }
+          img
+          {
+              border-radius: 50px; 
+              border-color: black;
+          }
+          footer
+          {
+              
+              padding: 10px 0;
+              bottom: 0;
+              width: 100%;
+              font-size: 14px;
+              text-align: center;
+             
+              color: chocolate;
+          }
+          .ctn
+          {
+              display: flex;
+              flex-direction: column;
+              min-height: 100%;
+              
+          }
+          .pcp
+          {
+              flex: 1;
+              padding: 20px;
+            
+          }
+  
+      </style>
+  </head>
+  <body>
+      <div class="ctn">
+          <div class="pcp">
+      
+  
+     <div class="tete">
+          <nav class="navbar">
+              <marquee behavior="alternate" direction="alternate" bgcolor="black" style="color: white; font-family: arial;"><h1>BIENVENUS DANS MON SITE PERSO</h1></marquee> 
+              <ul class="menu">
+                <li><a href="Index.html">ACCUEIL</a></li>
+                
+                 <li><a href="apropos.html">APROPOS</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+                 <li><a href="galerie.html">GALERIE</a></li>
+                 <li><a href="progression.html">PROGRESSION</a></li>
+                 <li><a href="telecharger.html">TELECHARGEMENT</a></li>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <form >
+                   <input type="search" name="recherche" placeholder="rechercher">
+              </form>
+              </ul>
+              
+          </nav>
+        </div> 
+      </div> 
+     
+</head>
+<body>
+    <br> <br>
+    <center>
+        <h1> <center> Saisissiez votre rensaignement </center></h1>
+        <div id="cadre"> 
+        <form action="" method="post" enctype="multipart/form-data">
+        <label for="Nom"><h2 style="color: #fff;"> &nbsp;&nbsp;Nom(s)&nbsp;&nbsp;  </label>&nbsp; <input type="text" value=""name=""
+        id="Nom" placeholder="ici votre nom"> </h2> 
+        <label for="Prenom(s)"><h2 style="color: #fff;"> Prenom(s)&nbsp;&nbsp;&nbsp; </label> &nbsp;<input type="text" value=""name=""
+        id="Prenom(s)" placeholder="ici votre Prenom(s)">  </h2> 
+        <label for="Adresse"> <h3 style="color: #fff;"> Adresse actuelle  </label>&nbsp; <input type="text" value=""name=""
+        id="Adresse" placeholder="ici votre Adresse"> </h3> 
+        <label for="telepohone"> <h3 style="color: #fff;">  Telepohone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>&nbsp; <input type="tel" value=""name=""
+             id="tel" placeholder="ici votre Numer de telepohone"> </h3>
+             <label for="telepohone"> <h3 style="color: #fff;">  Objectif&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label> &nbsp;<input type="tel" value=""name=""
+                id="tel" placeholder="ici votre Objectif"> </h3>
+                <label for="message" style="color: #fff;"> Message </label> :
+    <textarea  cols="30" rows="5">
+
+      Ici votre texte
+
+    </textarea> <br> <br>
+                <p style="color: #fff;"> J'accepte par honneur les conditions <input type="checkbox"> </p>
+    <input type="reset" value="annuler" name="annuler">
+     <a href="accuiel.html" style="color:#fff"> Continue </a>
+
+     
+      <p style="color: #fff;">
+        ici tout le monde à Droit de me conctacter et <br>  je suis la pour toutes 
+        questions concernant à <br> mon page ou d'autre scientifique, sourtout vos aides 
+        sont les bienVenues.
+      </p>
+    </div>
+</body>
+</html>
+
+    <style>
+        body{
+            background :url(../Image/6412173.jpg);
+            font: size 100%; ;
+        }
+        #cadre{
+            height: 570px;
+            width: 400px;
+            border: 1px solid black;
+            background-color:darkolivegreen;
+            padding: 30px 40px;
+        }
+    </style>
